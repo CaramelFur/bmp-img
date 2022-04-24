@@ -1,0 +1,64 @@
+{
+  "images": [
+    {
+      "name": "1bit",
+      "width": 100,
+      "height": 100,
+      "channels": 3
+    },
+    {
+      "name": "2bit",
+      "width": 100,
+      "height": 100,
+      "channels": 3
+    },
+    {
+      "name": "4bit",
+      "width": 100,
+      "height": 100,
+      "channels": 3
+    },
+    {
+      "name": "8bit",
+      "width": 100,
+      "height": 100,
+      "channels": 3
+    },
+    {
+      "name": "16bit_555",
+      "width": 100,
+      "height": 100,
+      "channels": 3
+    },
+    {
+      "name": "16bit_565",
+      "width": 100,
+      "height": 100,
+      "channels": 3
+    },
+    {
+      "name": "16bit_4444",
+      "width": 100,
+      "height": 100,
+      "channels": 4
+    },
+    {
+      "name": "24bit_888",
+      "width": 100,
+      "height": 100,
+      "channels": 3
+    },
+    {
+      "name": "32bit_888",
+      "width": 100,
+      "height": 100,
+      "channels": 3
+    },
+    {
+      "name": "32bit_8888",
+      "width": 100,
+      "height": 100,
+      "channels": 4
+    }
+  ]
+}
