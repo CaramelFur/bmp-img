@@ -1,7 +1,7 @@
 {
   "name": "bmp-img",
   "version": "1.0.0",
-  "description": "Typescript bindings for BMP images",
+  "description": "Typescript bindings for decoding and encoding BMP bitmap images",
   "repository": "https://github.com/rubikscraft/bmp-img",
   "author": "Rubikscraft <contact@rubikscraft.nl>",
   "license": "GPL-3.0",
@@ -18,7 +18,13 @@
     "encoding",
     "decoding",
     "backend",
-    "bitmap"
+    "bitmap",
+    "1bit",
+    "4bit",
+    "8bit",
+    "16bit",
+    "24bit",
+    "32bit"
   ],
   "readme": "README.md",
   "main": "dist/index.js",
