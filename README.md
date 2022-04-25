@@ -44,5 +44,7 @@ enum BMPChannels {
 
 ## Release notes
 
+* [v1.1.0]
+  * Update BMPxx
 * [v1.0.0]
   * Initial release
