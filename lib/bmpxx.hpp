@@ -84,7 +84,7 @@ namespace bmpxx
       uint8_t alpha;
     };
 
-    struct DibHeaderMeta
+    struct __attribute__((packed)) DibHeaderMeta
     {
       uint32_t padded_row_width = 0;
       uint8_t has_alpha_channel = 0;
