@@ -7,30 +7,32 @@ This library uses the [BMPxx](https://github.com/rubikscraft/BMPxx) c++ library.
 
 ### Encoding
 
-You can encode a BMP image with the `QOIEncode` function.
+You can encode a BMP image with the `BMPencode` function.
 The input pixels are ordered as either `RGB` or `RGBA`, depending on what you specify in the channels parameter.
 
 ```js
-function QOIEncode: (
-    pixels: Buffer,
-    width: number,
-    height: number,
-    channels: QOIChannels,
-  ) => Buffer;
+function BMPencode(
+  pixels: Buffer,
+  options: {
+    width: number;
+    height: number;
+    channels: BMPChannels;
+  },
+) => Buffer
 ```
 
 ### Decoding
 
-Decoding is just as easy. You can decode an image by using the `BMPDecode` function.
+Decoding is just as easy. You can decode an image by using the `BMPdecode` function.
 The output pixels are ordered as either `RGB` or `RGBA`, depending on the channels value.
 
 ```js
-function BMPDecode(data: Buffer) => {
-    pixels: Buffer;
-    width: number;
-    height: number;
-    channels: QOIChannels;
-  }
+function BMPdecode(data: Buffer) => {
+  pixels: Buffer;
+  width: number;
+  height: number;
+  channels: BMPChannels;
+}
 ```
 
 ### Enums
