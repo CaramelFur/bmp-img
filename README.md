@@ -46,6 +46,8 @@ enum BMPChannels {
 
 ## Release notes
 
+* [v1.2.2]
+  * Fix build for MacOS and Windows
 * [v1.2.0]
   * Update dependencies
   * Remove building with `-march=native`
